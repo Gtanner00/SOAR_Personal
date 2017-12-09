@@ -1,0 +1,61 @@
+Title,STM32 SOAR Avionics Development Board
+Revision,1
+Date,2017-12-03
+Generated,12/3/2017 10:27:25 AM
+Company,SOAR
+Comment 1,Andromeda
+Comment 2,Garnet Tanner
+Comment 3,
+Comment 4,
+Total Parts,88
+Total Unique Parts,40
+
+
+
+Ref,Qty,Value,Footprint,Datasheet,Digikey,
+C1 C2 ,2,47pF,Capacitor_SMD:C_0603_1608Metric,, 
+C3 C19 C23 C24 ,4,10nF,Capacitor_SMD:C_0603_1608Metric,, 
+C4 ,1,4.7uF,Capacitor_SMD:C_0603_1608Metric,, 
+C5 C15 C16 C18 C20 C22 C29 C30 C31 C32 ,10,100nF,Capacitor_SMD:C_0603_1608Metric,, 
+C6 C17 ,2,1uF,Capacitor_SMD:C_0603_1608Metric,, 
+C7 C9 ,2,0.22uF,Capacitor_SMD:C_0603_1608Metric,, 
+C8 C10 C11 ,3,2.2uF,Capacitor_SMD:C_0603_1608Metric,, 
+C12 C14 ,2,24pF,Capacitor_SMD:C_0603_1608Metric,, 
+C13 C21 C28 C33 ,4,10uF,Capacitor_SMD:C_0603_1608Metric,, 
+C25 C26 C27 ,3,0.1uF,Capacitor_SMD:C_0603_1608Metric,, 
+D1 ,1,Green,LED_SMD:LED_0805_2012Metric,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,LG R971-KN-1
+D2 ,1,Red,LED_SMD:LED_0805_2012Metric,http://www.osram-os.com/Graphics/XPic8/00078896_0.pdf,475-1278-1-ND
+D3 ,1,D_Schottky_x2_KCom_AAK,Package_TO_SOT_SMD:SOT-23,https://assets.nexperia.com/documents/data-sheet/PMEG2005CT.pdf,1727-5188-1-ND
+D4 ,1,Green,LED_SMD:LED_0805_2012Metric,,LG R971-KN-1
+D5 ,1,LED,LED_SMD:LED_0805_2012Metric,, 
+J1 ,1,USB_MINIB,SOAR:USB-Mini-B,http://files.edac.net/690-005-299-043.pdf,690-005-299-043
+J2 ,1,Barrel_Jack,SOAR:CUI_PJ-102A,http://www.cui.com/product/resource/pj-102a.pdf,CP-102A-ND
+J3 ,1,Conn_02x04_Odd_Even,Conn_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,, 
+J4 ,1,Micro_SD_Card,SOAR:Conn,Molex,Hinged_microSD,http://www.molex.com/pdm_docs/sd/472192001_sd.pdf,0472192001
+J5 ,1,Conn_01x02,Conn_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,, 
+J6 J7 ,2,Conn_01x06,Conn_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,, 
+J8 J9 J13 ,3,Conn_01x04,Conn_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,,609-3262-ND
+J11 J12 ,2,Conn_02x03_Odd_Even,Conn_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,, 
+L1 ,1,Ferrite_Bead,Inductor_SMD:L_0603_1608Metric,,732-1593-1-ND
+MK1 MK2 MK3 MK4 ,4,Mounting_Hole_PAD,MountingHole:MountingHole_3.2mm_M3_Pad,, 
+Q1 ,1,Q_NMOS_GSD,Package_TO_SOT_SMD:SOT-23,https://www.infineon.com/dgdl/irlml2502gpbf.pdf?fileId=5546d462533600a401535667fb882604,IRLML2502GTRPBFCT-ND
+R1 R2 ,2,27,Resistor_SMD:R_0603_1608Metric,, 
+R3 R4 R5 R20 ,4,330,Resistor_SMD:R_0603_1608Metric,, 
+R6 R7 R8 R9 R12 R13 R14 R15 R16 R17 R18 R19 R21 R22 ,14,10K,Resistor_SMD:R_0603_1608Metric,, 
+R10 R11 ,2,100,Resistor_SMD:R_0603_1608Metric,, 
+SW1 ,1,SW_DIP_x04,Button_Switch_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile,,CT2194MST-ND
+U1 ,1,FT230XS,Package_SSOP:SSOP-16_3.9x4.9mm_P0.635mm,http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf,768-1135-1-ND
+U2 ,1,AP2210-3.3,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/AP2210.pdf,AP2210N-3.3TRG1
+U3 ,1,LM3480-5.0,Package_TO_SOT_SMD:SOT-23,http://www.ti.com/lit/ds/symlink/lm3480.pdf,LM3480IM3X-5.0/NOPBCT-ND
+U4 ,1,STM32F405R,Package_QFP:LQFP-64_10x10mm_P0.5mm,http://www.st.com/content/ccc/resource/technical/document/datasheet/ef/92/76/6d/bb/c2/4f/f7/DM00037051.pdf/files/DM00037051.pdf/jcr:content/translations/en.DM00037051.pdf,497-11767-ND
+U5 ,1,LIS3DH,SOAR:LGA-16,, 
+U6 ,1,MAX31856,Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm,https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf,MAX31856MUD+-ND
+U7 ,1,LSM9DS1,Package_LGA:LGA-24L_3x3.5mm_P0.43mm,http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf,497-14946-1-ND
+U8 ,1,MS5607,Package_LGA:LGA-8_3x5mm_P1.25mm,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English,MS560702BA03-00
+Y1 ,1,Crystal_8MHz_18pf,Crystal:Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm,http://www.abracon.com/Resonators/abls.pdf,535-9089-1-ND
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated 12/3/2017 10:27:25 AM
